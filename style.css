@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.teste-login{
+    height: 100vh;
+    background: linear-gradient(120deg, black,#05ce70);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container{
+    min-height: 400px;
+    width: 300px;
+    background-color: #FFF;
+    box-sizing: border-box;
+    padding: 32px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-logo{
+    margin-bottom: 35px;
+    color: #696969;   
+}
+
+.login-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-email{
+    height: 40px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 8px;
+    border: unset;
+    outline: none;
+}
+
+.login-border{ /*borda da caixa de login*/
+    height: 1px;
+    width: 100%;
+    margin-bottom: 16px;
+    background-color: #cfcfcf;
+    transition: .3s ease-in-out;
+}
+
+.login-submite{
+    height: 40px; /*altura da caixa de login*/
+    width: 70%; /*cumprimeiro da caixa de login*/
+    outline: none;
+    background: linear-gradient(120deg, black,#05ce70,black);/*cor da caixa de login*/
+    color: #FFF; /*cor do texto de dentro da caixa*/
+    background-size: 200%;
+    margin-top: 25px; /*distancia da caixa de login pra cima*/
+    margin-bottom: 15px; /*distancia da caixa de login pra baixo*/
+    font-size: 14px; /* tamanho da fonte do login*/
+    font-weight: bold; /*deixa o texto dentro da caixa negrito*/
+    border: unset; /*retira o quadrado feio que fica na borda, deixando apenas o quadrado perfeito*/
+}
+
+.redefinir-senha{
+    color: #696969;
+    height: auto;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+.login-cadastro{
+    color: #696969;
+    text-decoration: none;
+}
